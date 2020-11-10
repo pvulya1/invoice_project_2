@@ -1,0 +1,103 @@
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.account_list{
+    display: none;
+}
+.act_active{
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s;
+    margin-top: 0px;
+    margin-bottom: 0;
+    list-style: none;
+    transition: 0.5s all;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    /* padding-bottom: 40px; */
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid white;
+    /* border: 1px solid; */
+    a{
+        display: block;
+        position: relative;
+        transition: 0.5s all;
+        color: #fff;
+        text-decoration: none;
+        &:hover{
+            color: $green;
+            &:before{
+                content:'';
+                display: block;
+                width: 15px;
+                height: 2px;    
+                background-color: #fff;
+                position: absolute;
+                left: -20px;
+                top: 14px;
+            }
+            &:after{
+                content:'';
+                display: block;
+                width: 15px;
+                height: 2px;    
+                background-color: #fff;
+                position: absolute;
+                right: -20px;
+                top: 14px;
+            }
+        }
+    }
+    li{
+        &:nth-child(8){
+            margin-bottom: 0;
+        }
+        margin-bottom: 8px;
+        list-style-type: none;
+        border-bottom: 2px solid;
+        border-color: $blue;
+        transition: 1s all;
+        /* border-bottom-width: 15vw; */
+        &:hover{
+            border-color: #5a88ab;
+        }
+    }
+    background-color: rgba(34, 34, 34, 0.20);
+}

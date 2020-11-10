@@ -1,0 +1,18 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    transition: ease-in-out .2s;
+    position: relative;
+}
+
+@import "base/_variables";
+@import "blocks/sidemenu";
+@import "blocks/mainsection";
+@import "blocks/mainwrapper";
+@import "base/media";
+@import "blocks/profile";
+@import "blocks/settings";
+@import "blocks/top_nav";
+@import "blocks/settings_menu";
+@import "blocks/profile_descr";

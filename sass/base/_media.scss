@@ -1,0 +1,270 @@
+@media(min-width: 1600px){
+    .main__section{
+        .main__section__wrapper{
+            .account__settings{
+                right: -50px;
+            }
+        }
+    }
+}
+
+@media(min-width: 1920px){
+    .main__section{
+        &__first{
+            .title{
+                font-size: 30px;
+                line-height: 60px;
+            }
+        }
+        &__second{
+            .title{
+                font-size: 30px;
+                line-height: 60px;
+            }
+        }
+        &__third{
+            .title{
+                font-size: 30px;
+                line-height: 60px;
+            }
+        }
+        .div_wrapper{
+            a{
+                span{
+                    font-size: 25px;
+                }
+            }
+        }
+        .main__section__wrapper{
+            .account__settings{
+                font-size: 30px;
+                right: -50px;
+            }
+            .descr_active{
+                top: 55px;
+                .nick{
+                    font-size: 25px;
+                }
+                .email{
+                    font-size: 17px;
+                }
+                .manage{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+    .sidemenu__navigation{
+        a.sidemenu__navigation__links{
+            font-size: 25px;
+        }
+    }
+    .sidemenu{
+        .settings_active{
+            height: 100vh;
+            font-size: 25px;
+        }
+        .act_active{
+            height: 10vh;
+            font-size: 25px;
+        }
+        .hr_active{
+            height: 15vh;
+            font-size: 25px;
+        }
+        .operation_active{
+            height: 20vh;
+            font-size: 25px;
+        }
+        .accounting_active{
+            height: 30vh; 
+            font-size: 25px;
+        }
+    }
+    
+}
+
+@media (min-width: 2500px) {
+    .main__section{
+        &__first{
+            .title{
+                font-size: 40px;
+                line-height: 80px;
+            }
+        }
+        &__second{
+            .title{
+                font-size: 40px;
+                line-height: 80px;
+            }
+        }
+        &__third{
+            .title{
+                font-size: 40px;
+                line-height: 80px;
+            }
+        }
+        .div_wrapper{
+            a{
+                span{
+                    font-size: 35px;
+                }
+            }
+        }
+        .main__section__wrapper{
+            .account__settings{
+                font-size: 30px;
+                right: -55px;
+                width: calc(2.5%);
+                height: calc(4.5%);
+            }
+            .descr_active{
+                text-align: center;
+                top: 70px;
+                i{
+                    font-size: 100px;
+                }
+                .nick{
+                    font-size: 30px;
+                }
+                .email{
+                    font-size: 20px;
+                }
+                .manage{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    .sidemenu{
+        .settings_active{
+            height: 100vh;
+            font-size: 25px;
+        }
+        .act_active{
+            height: 10vh;
+            font-size: 25px;
+        }
+        .hr_active{
+            height: 15vh;
+            font-size: 25px;
+        }
+        .operation_active{
+            height: 20vh;
+            font-size: 25px;
+        }
+        .accounting_active{
+            height: 30vh; 
+            font-size: 25px;
+        }
+    }
+    
+}
+
+@media(max-width: 992px){
+    .sidemenu__navigation{
+        a.sidemenu__navigation__links{
+            font-size: 16px;
+        }
+    }
+    .main__section{
+        .main__section__wrapper{
+            .account__settings{
+                font-size: 15px;
+                right: -45px;
+                width: calc(4.5%);
+                height: calc(5.5%);
+            }
+            .descr_active{
+                text-align: center;
+                top: 40px;
+                i{
+                    font-size: 50px;
+                }
+                .nick{
+                    font-size: 18px;
+                }
+                .email{
+                    font-size: 13px;
+                }
+                .manage{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    
+}
+
+@media(max-width: 767px){
+    .sidemenu__navigation{
+        a.sidemenu__navigation__links{
+            font-size: 15px;
+            padding-right: 15px;
+            line-height: 35px;
+            &:after{
+                right: 6px;
+                bottom: 23px;
+            }
+        }
+        .accounting_active{
+            font-size: 15px;
+        }
+        .operation_active{
+            font-size: 15px;
+        }
+        .hr_active{
+            font-size: 15px;
+        }
+        .act_active{
+            font-size: 15px;
+        }
+        .settings_active{
+            font-size: 15px;
+        }
+    }
+    .main__section{
+        .main__section__wrapper{
+            .account__settings{
+                font-size: 15px;
+                right: -40px;
+                width: calc(5.5%);
+                height: calc(5.5%);
+            }
+            .descr_active{
+                text-align: center;
+                top: 35px;
+                i{
+                    font-size: 40px;
+                }
+                .nick{
+                    font-size: 13px;
+                }
+                .email{
+                    font-size: 10px;
+                }
+                .manage{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    .sidemenu{
+        .hr_active{
+            height: 50vh;
+        }
+    }
+}
+
+@media(min-width: 2200px) {
+    .main__section{
+        .main__section__wrapper{
+            .account__settings{
+                font-size: 30px;
+                right: -53px;
+                width: calc(2.5%);
+                height: calc(3.5%);
+            }
+        }
+    }
+}
